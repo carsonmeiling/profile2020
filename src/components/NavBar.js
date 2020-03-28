@@ -14,6 +14,11 @@ const NavBar = () => (
         About Me
       </Menu.Item>
     </Link>
+    <Link to='/projects'>
+      <Menu.Item>
+        Projects
+      </Menu.Item>
+    </Link>
     <Link to='/contact'>
       <Menu.Item>
         Contact
