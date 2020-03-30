@@ -1,6 +1,7 @@
 import React from 'react';
 import { Menu } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const NavBar = () => (
   <Menu>
@@ -9,11 +10,11 @@ const NavBar = () => (
         Home
       </Menu.Item>
     </Link>
-    <Link to='/about'>
+    <HashLink to='/about'>
       <Menu.Item>
         About Me
       </Menu.Item>
-    </Link>
+    </HashLink>
     <Link to='/projects'>
       <Menu.Item>
         Projects
