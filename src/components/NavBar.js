@@ -1,30 +1,29 @@
 import React from 'react';
 import { Menu } from 'semantic-ui-react';
-import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
+import { NavLink } from 'react-router-dom';
 
 const NavBar = () => (
   <Menu>
-    <Link to='/'>
+    <NavLink to='/'>
       <Menu.Item>
         Home
       </Menu.Item>
-    </Link>
-    <HashLink to='/about'>
+    </NavLink>
+    <NavLink to='/about'>
       <Menu.Item>
         About Me
       </Menu.Item>
-    </HashLink>
-    <Link to='/projects'>
+    </NavLink>
+    <NavLink to='/projects'>
       <Menu.Item>
         Projects
       </Menu.Item>
-    </Link>
-    <Link to='/contact'>
+    </NavLink>
+    <NavLink to='/contact'>
       <Menu.Item>
         Contact
       </Menu.Item>
-    </Link>
+    </NavLink>
   </Menu>
 
 

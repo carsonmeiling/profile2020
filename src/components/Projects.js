@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
+import { Grid } from 'semantic-ui-react';
 
-class Projects extends Component {
+const Projects = (projects) => {
 
 
-  render () {
-    return(
+
+    return (
       <>
         <h1>Projects</h1>
+        <Grid>
+          <Grid.Row>
+
+
+          </Grid.Row>
+        </Grid>
       </>
     )
-  }
 } 
 
 export default Projects;

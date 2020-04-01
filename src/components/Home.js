@@ -4,15 +4,15 @@ import AboutMe from './AboutMe';
 import LandingPage from './LandingPage';
 
 class Home extends Component {
+  
 
   render(){
     return(
       <>
       <LandingPage />
+      < AboutMe />
       <hr />
       < Projects />
-      <hr />
-      < AboutMe />
       <hr />
 
       
