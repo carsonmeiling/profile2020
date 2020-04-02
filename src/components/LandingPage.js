@@ -8,22 +8,20 @@ const LandingPage = () => {
   
   return(
 
-    // <Container>
-    <Grid columns={2}>
-      <Grid.Row>
-        <Grid.Column>
+    <div className='landing'>
+        <div className='landing-column-left'>
           {/* Photo by Casey Horner on Unsplash */}
           <Image src={forestImg} size='massive' stretched />
-        </Grid.Column>
-        <Grid.Column>
+        </div>
+        {/* <div className='landing-hello'>
+          <h2>Hello.</h2>
+        </div> */}
+        <div className='landing-column-right'>
           {/* Photo by takahiro taguchi on Unsplash */}
           <Image src={bImg} size='massive' stretched />
-        </Grid.Column>
-      </Grid.Row>
+        </div>
+    </div>
 
-    </Grid>
-
-// </Container>
 )
 
 }

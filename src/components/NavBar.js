@@ -3,7 +3,7 @@ import { Menu } from 'semantic-ui-react';
 import { NavLink } from 'react-router-dom';
 
 const NavBar = () => (
-  <Menu>
+  <Menu className='navbar'>
     <NavLink to='/'>
       <Menu.Item>
         Home

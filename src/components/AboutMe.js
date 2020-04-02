@@ -18,7 +18,10 @@ const AboutMe = () => (
     <Grid.Row>
       <Grid.Column width={3}></Grid.Column>
       <Grid.Column width={5} centered>
-        <p>I am a Web Developer, an I enjoy building clean and functional web applications.</p>
+        <p>I am a Web Developer based in Salt Lake City, and I enjoy building clean and functional web applications.
+        When I am not building applications, I enjoy a good cup of coffee and few rounds of pickleball.
+
+        </p>
       </Grid.Column>
       <Grid.Column width={5}></Grid.Column>
       <Grid.Column width={3}></Grid.Column>
@@ -28,7 +31,7 @@ const AboutMe = () => (
       <Grid.Column width={3}></Grid.Column>
       <Grid.Column width={5} centered></Grid.Column>
       <Grid.Column width={5}>
-        <p>When I am not building applications, I enjoy a good cup of coffee and few rounds of pickleball.</p>
+        <p>My wife and I love to travel. We are amateur scuba divers, and will take every chance we can to jump in the water. </p>
       </Grid.Column>
       <Grid.Column width={3}></Grid.Column>
     </Grid.Row>
